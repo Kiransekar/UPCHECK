@@ -1,5 +1,6 @@
 # UPCHECK
 # Aquaculture Management System
+![WhatsApp Image 2024-11-12 at 19 08 16_26676f8b](https://github.com/user-attachments/assets/862f6ea5-f565-4488-842a-9724b639854e)
 
 ## Setup
 
