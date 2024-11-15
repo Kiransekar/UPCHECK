@@ -1,0 +1,41 @@
+measurement_ranges:
+  depth:
+    min: 0.8
+    max: 2.5
+  ph:
+    min: 6.0
+    max: 9.0
+  secchi_disk:
+    min: 10
+    max: 60
+  stocking_density:
+    min: 15
+    max: 150
+  area:
+    min: 100
+    max: 10000
+
+growth_factors:
+  base_growth: 0.028
+  temperature:
+    optimal_min: 25
+    optimal_max: 32
+    factor_low: 0.8
+    factor_high: 0.7
+  density:
+    low_threshold: 50
+    high_threshold: 100
+    factor_low: 1.1
+    factor_high: 0.9
+  depth:
+    shallow_threshold: 1.2
+    deep_threshold: 1.8
+    factor_shallow: 0.9
+    factor_deep: 0.95
+
+api:
+  weather:
+    retries: 3
+    timeout: 10
+    cache_ttl: 600
+    batch_size: 100
